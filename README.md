@@ -2,7 +2,7 @@
 This is a Note Taker application that can be used to write and save notes. The application uses an Express.js back end and will save and retrieve note data from JSON file.
 
 ### Github: https://github.com/hienm9/Note-Taker
-### Heroku:
+### Heroku: https://dashboard.heroku.com/apps/hien-notetaker
 
 ### My walthrough video: https://drive
 
