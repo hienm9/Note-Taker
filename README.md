@@ -5,6 +5,13 @@ This is a Note Taker application that can be used to write and save notes. The a
 ### Deployed app: https://hien-notetaker.herokuapp.com/
 
 
+## Screenshots
+
+![](https://github.com/hienm9/Note-Taker/blob/main/assets/images/NoteTaker-Heroku.png)
+![](https://github.com/hienm9/Note-Taker/blob/main/assets/images/NoteTaker1-Heroku.png)
+
+
+
 ## Acceptance criteria
 
 ```
@@ -28,10 +35,6 @@ Application back end must store notes with unique IDs in a JSON file.
 Application must be deployed to Heroku.
 ```
 
-## Screenshots
-
-![](https://github.com/hienm9/Note-Taker/)
-
 
 ## Technology used
 <p><a href="https://nodejs.org/">Node.js</a></p>
@@ -43,6 +46,6 @@ Application must be deployed to Heroku.
 
 ## Contributors
 ```
-Thanks to Trilogy Education Services for the start code
+Thanks to Trilogy Education Services for the starter code
 Hien Mai @2022 All Rights Reserved.
 ```
