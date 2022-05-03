@@ -8,8 +8,8 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Routes files locations
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require('./routes/apiRoutes/noteRoutes');
+const htmlRoutes = require('./routes/htmlRoutes/htmlRoutes');
 
 // Set up parsing for incoming string or array data
 app.use(express.urlencoded({ extended: true }));
