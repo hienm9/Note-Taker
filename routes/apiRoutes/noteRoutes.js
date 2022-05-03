@@ -5,8 +5,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 
-// GET request
-//GET /api/notes should read the db.json file and return all saved notes as JSON.
+//GET /api/notes reads the db.json file and returns all saved notes as JSON.
 router.get('/notes', function (req, res) {
   res.json(savedNotes);
 });
@@ -27,6 +26,18 @@ router.post('/notes', (req, res) => {
   
 });
 
+//DELETE /api/notes/:id removes the note with the matching id from db.json
+router.delete('/notes/:id', (req, res) => {
+  var selectNote = req.params.id;
+
+    for (let i = 0; i < savedNotes.length; i++) {
+        if (selectNote === savedNotes[i].id) {
+          // return the SaveNotes with the selected note removed 
+            res.json(savedNotes.splice(i, 1));
+        }
+    }
+
+});
 
 
 module.exports = router;
